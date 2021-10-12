@@ -84,7 +84,7 @@ traitlets==5.1.0
 wcwidth==0.2.5
 webencodings==0.5.1
 wheel==0.37.0
-widgetsnbextension==4.0.0a4
+widgetsnbextension==3.5.0
 xeus-python-shell==0.1.5
 XlsxWriter==3.0.1
 zipp==3.5.0
