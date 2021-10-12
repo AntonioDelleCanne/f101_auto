@@ -12,7 +12,6 @@ decorator @ file:///tmp/build/80754af9/decorator_1632776554403/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 entrypoints==0.3
 et-xmlfile==1.1.0
-f101-scripts @ file:///home/a.dellecanne/notebooks/f101_auto/scripts/f101_scripts
 fastcore==1.3.26
 fastrelease==0.1.12
 fonttools==4.25.0
