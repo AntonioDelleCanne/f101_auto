@@ -1,147 +1,88 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: linux-64
-_libgcc_mutex=0.1=conda_forge
-_openmp_mutex=4.5=1_llvm
-argon2-cffi=21.1.0=pypi_0
-async_generator=1.10=pyhd3eb1b0_0
-attrs=21.2.0=pyhd3eb1b0_0
-backcall=0.2.0=pyhd3eb1b0_0
-blas=1.0=mkl
-bleach=4.0.0=pyhd3eb1b0_0
-bottleneck=1.3.2=py39hdd57654_1
-brotli=1.0.9=he6710b0_2
-ca-certificates=2021.5.30=ha878542_0
-certifi=2021.5.30=py39hf3d152e_0
-cffi=1.14.6=py39h400218f_0
-cycler=0.10.0=py39h06a4308_0
-dbus=1.13.18=hb2f20db_0
-debugpy=1.4.1=py39h295c915_0
-decorator=5.1.0=pyhd3eb1b0_0
-defusedxml=0.7.1=pyhd3eb1b0_0
-entrypoints=0.3=py39h06a4308_0
-et_xmlfile=1.1.0=py39h06a4308_0
-expat=2.4.1=h2531618_2
-fastcore=1.3.26=pypi_0
-fastrelease=0.1.12=pypi_0
-fontconfig=2.13.1=hba837de_1005
-fonttools=4.25.0=pyhd3eb1b0_0
-freetype=2.10.4=h5ab3b9f_0
-ghapi=0.1.19=pypi_0
-glib=2.69.1=h5202010_0
-gst-plugins-base=1.14.0=h8213a91_2
-gstreamer=1.14.0=h28cd5cc_2
-icu=58.2=he6710b0_3
-importlib-metadata=4.8.1=py39h06a4308_0
-importlib_metadata=4.8.1=hd3eb1b0_0
-intel-openmp=2021.3.0=h06a4308_3350
-ipykernel=6.2.0=py39h06a4308_1
-ipython=7.27.0=py39hb070fc8_0
-ipython_genutils=0.2.0=pyhd3eb1b0_1
-ipywidgets=7.6.4=pypi_0
-jdcal=1.4.1=pyhd3eb1b0_0
-jedi=0.18.0=py39h06a4308_1
-jinja2=3.0.1=pyhd3eb1b0_0
-jpeg=9d=h7f8727e_0
-jsonschema=3.2.0=pyhd3eb1b0_2
-jupyter=1.0.0=pypi_0
-jupyter-client=6.1.12=pypi_0
-jupyter-console=6.4.0=pypi_0
-jupyter_client=7.0.1=pyhd3eb1b0_0
-jupyter_core=4.7.1=py39h06a4308_0
-jupyterlab-widgets=2.0.0a3=pypi_0
-jupyterlab_pygments=0.1.2=py_0
-jupyterlab_widgets=1.0.2=pyhd8ed1ab_0
-kiwisolver=1.3.1=py39h2531618_0
-lcms2=2.12=h3be6417_0
-ld_impl_linux-64=2.35.1=h7274673_9
-libffi=3.3=he6710b0_2
-libgcc-ng=11.2.0=h1d223b6_9
-libpng=1.6.37=hbc83047_0
-libsodium=1.0.18=h7b6447c_0
-libstdcxx-ng=11.2.0=he4da1e4_9
-libtiff=4.2.0=h85742a9_0
-libuuid=2.32.1=h7f98852_1000
-libwebp-base=1.2.0=h27cfd23_0
-libxcb=1.14=h7b6447c_0
-libxml2=2.9.12=h03d6c58_0
-llvm-openmp=12.0.1=h4bd325d_1
-lxml=4.6.3=pypi_0
-lz4-c=1.9.3=h295c915_1
-markupsafe=2.0.1=py39h27cfd23_0
-matplotlib=3.4.2=py39h06a4308_0
-matplotlib-base=3.4.2=py39hab158f2_0
-matplotlib-inline=0.1.2=pyhd3eb1b0_2
-mistune=0.8.4=py39h27cfd23_1000
-mkl=2021.3.0=h06a4308_520
-mkl-service=2.4.0=py39h7f8727e_0
-mkl_fft=1.3.0=py39h42c9631_2
-mkl_random=1.2.2=py39h51133e4_0
-munkres=1.1.4=py_0
-nbclient=0.5.4=pyhd8ed1ab_0
-nbconvert=5.6.1=pypi_0
-nbdev=1.1.22=pypi_0
-nbformat=5.1.3=pyhd3eb1b0_0
-ncurses=6.2=he6710b0_1
-nest-asyncio=1.5.1=pyhd3eb1b0_0
-notebook=6.4.3=pyha770c72_0
-numexpr=2.7.3=py39h22e1b3c_1
-numpy=1.20.3=py39hf144106_0
-numpy-base=1.20.3=py39h74d4b33_0
-olefile=0.46=pyhd3eb1b0_0
-openjpeg=2.4.0=h3ad879b_0
-openpyxl=3.0.5=py_0
-openssl=1.1.1l=h7f98852_0
-packaging=21.0=pyhd3eb1b0_0
-pandas=1.3.2=py39h8c16a72_0
-pandoc=2.12=h06a4308_0
-pandocfilters=1.4.3=py39h06a4308_1
-parso=0.8.2=pyhd3eb1b0_0
-pcre=8.45=h295c915_0
-pexpect=4.8.0=pyhd3eb1b0_3
-pickleshare=0.7.5=pyhd3eb1b0_1003
-pillow=8.3.1=py39h2c7a002_0
-pip=21.2.4=py37h06a4308_0
-prometheus_client=0.11.0=pyhd3eb1b0_0
-prompt-toolkit=3.0.17=pyhca03da5_0
-ptyprocess=0.7.0=pyhd3eb1b0_2
-pycparser=2.20=py_2
-pygments=2.10.0=pyhd3eb1b0_0
-pyparsing=2.4.7=pyhd3eb1b0_0
-pyqt=5.9.2=py39h2531618_6
-pyrsistent=0.18.0=py39h7f8727e_0
-python=3.9.6=h12debd9_1
-python-dateutil=2.8.2=pyhd3eb1b0_0
-python-docx=0.8.11=pypi_0
-python_abi=3.9=2_cp39
-pytz=2021.1=pyhd3eb1b0_0
-pyyaml=5.4.1=pypi_0
-pyzmq=22.2.1=py39h295c915_1
-qt=5.9.7=h5867ecd_1
-qtconsole=5.1.1=pypi_0
-qtpy=1.11.1=pypi_0
-readline=8.1=h27cfd23_0
-send2trash=1.8.0=pyhd3eb1b0_1
-setuptools=58.0.4=py39h06a4308_0
-sip=4.19.13=py39h2531618_0
-six=1.16.0=pyhd3eb1b0_0
-sqlite=3.36.0=hc218d9a_0
-terminado=0.9.4=py39h06a4308_0
-testpath=0.5.0=pyhd3eb1b0_0
-tk=8.6.11=h1ccaba5_0
-tornado=6.1=py39h27cfd23_0
-traitlets=5.1.0=pyhd3eb1b0_0
-tzdata=2021a=h5d7bf9c_0
-wcwidth=0.2.5=pyhd3eb1b0_0
-webencodings=0.5.1=pypi_0
-wheel=0.37.0=pyhd3eb1b0_1
-widgetsnbextension=4.0.0a4=pypi_0
-xeus=2.1.1=h7d0c39e_0
-xeus-python=0.13.2=py39h1aaad98_0
-xeus-python-shell=0.1.5=pyhd8ed1ab_0
-xlsxwriter=3.0.1=pyhd8ed1ab_0
-xz=5.2.5=h7b6447c_0
-zeromq=4.3.4=h2531618_0
-zipp=3.5.0=pyhd3eb1b0_0
-zlib=1.2.11=h7b6447c_3
-zstd=1.4.9=haebb681_0
+argon2-cffi==21.1.0
+async-generator @ file:///home/ktietz/src/ci/async_generator_1611927993394/work
+attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+bleach @ file:///tmp/build/80754af9/bleach_1628110601003/work
+Bottleneck @ file:///tmp/build/80754af9/bottleneck_1607575130224/work
+certifi==2021.5.30
+cffi @ file:///tmp/build/80754af9/cffi_1625814692085/work
+cycler==0.10.0
+debugpy @ file:///tmp/build/80754af9/debugpy_1629214122703/work
+decorator @ file:///tmp/build/80754af9/decorator_1632776554403/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+entrypoints==0.3
+et-xmlfile==1.1.0
+f101-scripts @ file:///home/a.dellecanne/notebooks/f101_auto/scripts/f101_scripts
+fastcore==1.3.26
+fastrelease==0.1.12
+fonttools==4.25.0
+ghapi==0.1.19
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1631916692253/work
+ipykernel @ file:///tmp/build/80754af9/ipykernel_1629995099385/work/dist/ipykernel-6.2.0-py3-none-any.whl
+ipython @ file:///tmp/build/80754af9/ipython_1632131345714/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1631590360471/work
+jdcal @ file:///Users/ktietz/demo/mc3/conda-bld/jdcal_1630584345063/work
+jedi @ file:///tmp/build/80754af9/jedi_1611333729159/work
+Jinja2 @ file:///tmp/build/80754af9/jinja2_1624781299557/work
+jsonschema @ file:///Users/ktietz/demo/mc3/conda-bld/jsonschema_1630511932244/work
+jupyter==1.0.0
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1630690655192/work
+jupyter-console==6.4.0
+jupyter-core @ file:///tmp/build/80754af9/jupyter_core_1612213314396/work
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterlab-widgets==2.0.0a3
+kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1612281846643/work
+lxml==4.6.3
+MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1621523467000/work
+matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1628003481308/work
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mistune @ file:///tmp/build/80754af9/mistune_1607364877025/work
+mkl-fft==1.3.0
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
+mkl-service==2.4.0
+munkres==1.1.4
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1629120697898/work
+nbconvert @ file:///home/conda/feedstock_root/build_artifacts/nbconvert_1624472721108/work
+nbdev==1.1.22
+nbformat @ file:///tmp/build/80754af9/nbformat_1617383369282/work
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
+notebook @ file:///home/conda/feedstock_root/build_artifacts/notebook_1628690102344/work
+numexpr @ file:///tmp/build/80754af9/numexpr_1618856529730/work
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1626264704411/work
+olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
+openpyxl @ file:///tmp/build/80754af9/openpyxl_1598113097404/work
+packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
+pandas==1.3.2
+pandocfilters @ file:///tmp/build/80754af9/pandocfilters_1605120906940/work
+parso @ file:///tmp/build/80754af9/parso_1617223946239/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow @ file:///tmp/build/80754af9/pillow_1625655408865/work
+prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1623189609245/work
+prompt-toolkit @ file:///Users/ktietz/demo/mc3/conda-bld/prompt-toolkit_1629146841569/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+pyrsistent @ file:///tmp/build/80754af9/pyrsistent_1625052304482/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-docx==0.8.11
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyYAML==5.4.1
+pyzmq @ file:///tmp/build/80754af9/pyzmq_1628275385016/work
+qtconsole==5.1.1
+QtPy==1.11.1
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+terminado==0.9.4
+testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
+tornado @ file:///tmp/build/80754af9/tornado_1606942317143/work
+traitlets @ file:///tmp/build/80754af9/traitlets_1632522747050/work
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webencodings==0.5.1
+widgetsnbextension==4.0.0a4
+xeus-python-shell @ file:///home/conda/feedstock_root/build_artifacts/xeus-python-shell_1631182045880/work
+XlsxWriter @ file:///home/conda/feedstock_root/build_artifacts/xlsxwriter_1628647494633/work
+zipp @ file:///tmp/build/80754af9/zipp_1625570634446/work
